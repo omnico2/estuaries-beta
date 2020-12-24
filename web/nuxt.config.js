@@ -55,7 +55,7 @@ export default {
   },
   proxy: {
       '/server/': {
-          target: 'http://omnico2.pythonanywhere.com/api',
+          target: 'https://omnico2.pythonanywhere.com/api/',
           pathRewrite: { '/server/': '' },
       },
   },
